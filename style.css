@@ -1,0 +1,141 @@
+body {
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 16px;
+    font-style:italic;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+body{
+  background:#f4c1c1; 
+}
+
+#wrapper{ 
+  width: 900px;
+  margin: 0 auto;
+  background:#f4d3d3; 
+}
+
+/* Шапка сайта */
+
+#header{
+position:relative; 
+  height: 250px; 
+  background-color: #ffffff;
+  background-image:url(pngwing.com.png);
+  margin-bottom: 5px; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+}
+img{ 
+float: left; 
+  margin: -40px 0 0 0;} 
+h1{ 
+  color:#a30b61; 
+  font-size: 40px;
+  font-style:italic; 
+  font-weight:bold; 
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.nomer{ 
+  position:absolute; 
+  top:180px; 
+  left:680px; 
+  font-size: 15px; 
+  font-style:italic; 
+  font-weight:bold; 
+  color:#464451; 
+}
+.text:first-letter{
+  font-family:'Trattatello', fantasy;
+  font-style:italic;
+  font-size: 200%;
+  color: #f507a5;
+    }
+
+
+#sidebar{ 
+  background-color: #ffffff; 
+  width: 180px; 
+  padding: 10px; 
+  float: right; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+}
+.marcer{ 
+  float: left; 
+  margin: 5px 5px 0 0; 
+}
+
+
+h2{
+  margin-top: -5px;
+  margin-bottom: -15px;
+  color:#a30b61; 
+  font-size: 30px;
+  font-style:italic; 
+  font-weight:bold; 
+  text-align: center;
+}
+
+h3{
+  color:#a30b61; 
+  font-size: 20px;
+  font-style:italic; 
+  font-weight:bold; 
+  text-align: left;
+}
+
+#content{ 
+  text-align: justify;
+  margin-bottom: 5px; 
+  width: 676px; 
+  padding: 10px; 
+  background: #ffffff; 
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+
+.left{ 
+  float: left;
+  margin: 30px 7px 7px 7px;
+}
+.right{ 
+  float: right;
+  margin: 40px 0 40px 40px;
+}
+
+.list {
+  font-size: 20px;
+  color: #444;
+  font-style: italic;
+  list-style-type: "\1F44D";
+}
+
+
+#footer{ 
+  height:80px; 
+  background-color: #ffffff; 
+  margin-bottom: 10px; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+}
+.clear{ 
+  clear: both;
+}
+  .fon{ 
+  float:left; 
+  margin:20px 0 0 20px;
+}
+.fax{ 
+  float:left;
+  margin:20px 0 0 60px;
+}
+.mail{ 
+  float:left;
+ margin:20px 0 0 60px;
+}
